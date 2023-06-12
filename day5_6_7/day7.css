@@ -15,3 +15,7 @@ img{
     top: 50px;
     left: 150px;
 }
+
+.netflix{
+    position: fixed;
+}
