@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(255, 228, 196);
+}
+
+.heading {
+    background-color: #c9622a;
+}
+
+.para {
+    background-color: rgba(51, 170, 51, 0.3);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Dimensions */
+.box {
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    font-size: 1.5rem;
+    border-radius: 25%;
+    margin: 10px;
+    text-align: center;
+}
+
+.heading {
+    height: 100px;
+    width: 20%;
+    /* margin: 100px 300px 30px 50px; TRBL */
+    margin: 100px 200px; /* vertical horizontal */
+    /* margin: 30px; All 4 ek saath*/
+    /* margin-left: 20px; */
+    padding: 10px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border: 10px solid white; /* width style color */
+    border-radius: 50%;
+}
+
+/* Display & Position */
+h3 {
+    display: inline;
+}

@@ -1,0 +1,45 @@
+body{
+    color:cadetblue;
+    background-color: darkmagenta;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Class selector */
+/* Value of class can be multiple*/
+.first{
+    color: black;
+}
+.large{
+    font-size: 30px;
+}
+
+/* ID selector */
+#eklist{
+    background-color: brown;
+}
+
+/* Attribute selector */
+a[href="https://upflairs.com"]{
+    color : red;
+    text-decoration: none;
+}
+
+input[type = "text"]
+{
+    background-color: blue;
+    color: white;
+}
+
+/* Pseudo Selector */
+a:hover{
+    color: black;
+}
+
+.first:hover{
+    color : white;
+}
+
+/* Universal Selector */
+*{
+    margin: 1%;
+}

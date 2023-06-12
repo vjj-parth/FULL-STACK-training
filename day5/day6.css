@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(255, 228, 196);
+}
+
+.heading {
+    background-color: #c9622a;
+}
+
+.para {
+    background-color: rgba(51, 170, 51, 0.3);
+    width: 50%;
+}
+
+/* Dimensions */
+.box {
+    background-color: aqua;
+    width: 200px;
+    height: 100px;
+    font-size: 2em;     /* 2em = 16px */
+    /* border-radius: 18%; */
+    border-radius: 30px;
+    text-align: center;
+}
+
+.heading{
+    height: 100px;
+    width: 40%;
+    /* margin: 100px 300px 30px 50px; /* TRBL */
+    /* margin: 100px 200px; /* vertical and horizontal 
+    /* margin: 30px; */
+    /* margin-left: 50px; */
+
+    /* padding: 30px; */
+    /* padding: 1%; */
+    text-align: center ;
+
+
+}
+img{
+    width: 70px;
+    height: 70px;
+    border: 10px solid red; /* width style color*/
+    border-radius: 50%;
+}
+
+/* Display and Position */
+h3{
+    display: inline;
+}
+
+div{
+    /* display inline-block */
+    width: 200px;
+    height: 200px;
+
+}
+
+*{
+    margin: 0px;
+}
+
+.bbox1{
+    background-color: red;
+    /* position: relative; */
+}
+.bbox2{
+    background-color: green;
+    position: relative;
+    margin-block-end: -50px;
+}
+.bbox3{
+    background-color: blue;
+    position: relative;
+    bottom: -30px;
+    left: 50px;
+    margin-block-start: 50px;
+}
+
