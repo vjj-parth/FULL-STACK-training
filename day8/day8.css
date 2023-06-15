@@ -7,8 +7,9 @@
     --whiteColor: white;
     --blackColor: #222222;
     --primaryFont: 'Open Sans', sans-serif;
-    --navbarHeight: 3rem;
+    --navbarHeight: 3.2rem;
     --cursiveFont: 'Pacifico', cursive;
+	--serviceHeadingFont: 'Exo 2', sans-serif;
 }
 
 /* Main CSS */
@@ -47,14 +48,25 @@ a:hover{
     align-items: center;
 }
 
+.logoTitle {
+    font-family: var(--cursiveFont);
+    font-size: 1.25rem;
+}
+
+.logoTitle:hover {
+    color: var(--primaryAccentColor);
+}
+
 .logoImage {
     padding: 8px;
     height: 2rem;
 }
 
 .contactImage {
-    padding: 8px;
-    height: 2rem;
+	align-items: center;
+	padding-right: 2.5rem;
+    /* padding: 8px; */
+    height: 1.6rem;
 }
 
 .menuItems {
@@ -73,26 +85,26 @@ a:hover{
     filter: drop-shadow(0px 3px 4px grey);  /*x,y,radius,color*/
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 20px 20px 16px 20px;
 }
 
 .bannerLeft{
-    width: 45%
+    width: 50%
 }
 
 
 
 .bannerImage{
-    height: 210px;
+    height: 300px;
     border-radius: 100%;
 }
 
 .greeting{
     font-family: var(--cursiveFont);
-    font-size: 1.28rem;
+    font-size: 2rem;
 }
 .title{
-    font-size: 2.1rem;
+    font-size: 3rem;
     color: white;
 }
 
@@ -117,5 +129,79 @@ a:hover{
 }
 
 .showCVButton:hover{
-    background: linear-gradient(white, rgb(215,215,215));
+    background: linear-gradient(white, rgb(210,210,210));
+}
+
+/* Services Section */
+.services {
+    /* margin: 5rem 5rem 5rem 5rem; */
+	margin: 5rem 4rem;
+}
+
+.serviceText {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.textSubHeading {
+    color: var(--primaryAccentColor);
+    letter-spacing: 0.4rem;
+    font-size: 1.25rem;
+}
+
+.textHeading {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.serviceCards {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.serviceCard {
+    border: 2px solid grey;
+    border-radius: 2px;
+    filter: drop-shadow(1px 1px 2px #aaaaaa);
+    margin: 15px;
+    padding: 40px;
+}
+
+.serviceCard:hover {
+    filter: drop-shadow(3px 3px 8px grey);
+    background-color: var(--whiteColor);
+}
+
+.serviceIconDiv {
+    color: white;
+    background-color: var(--primaryAccentColor);
+    display: inline-block;
+    padding: 1.3rem;
+    border-radius: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.serviceIcon {
+    font-size: 2.2rem;
+}
+
+.serviceTitle {
+    font-size: 1.8rem;
+    margin: 8px 0px 20px 0px;
+    font-family: var(--serviceHeadingFont);
+}
+
+.serviceFeature {
+    font-size: 1.1rem;
+    margin: 5px 0px;
+	
+}
+
+/* .serviceFeatureIcon{
+	align-items: center;
+} */
+
+.serviceIconDiv:hover {
+    background-color: black;
 }

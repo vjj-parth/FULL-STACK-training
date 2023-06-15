@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>My Portfolio</title>
+
+    <!-- Title Icon -->
+    <link rel="icon" href="images/portfolio.png" type="image/x-icon" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -12,7 +16,44 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap"
       rel="stylesheet"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,1,200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0"
+    />
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="day8.css" />
@@ -22,10 +63,11 @@
     <div class="navigation">
       <div class="logo">
         <a href="index.html">
-          <img class="logoImage" src="images/logo.png" alt="" />
+          <img class="logoImage" src="images/portfolio.png" alt="" />
         </a>
-
-        <span class="logotitle">Portfolio</span>
+        <a href="index.html">
+          <span class="logoTitle">Portfolio</span>
+        </a>
       </div>
 
       <div class="menuItems">
@@ -36,8 +78,10 @@
       </div>
 
       <div class="contactme">
-        <a class="contactButton" href="#">
-          <img class="contactImage" src="images/call.png" alt="" />
+        <a class="contactButton" href="tel:+919314072197">
+          <div class="contactImage">
+            <span class="material-symbols-outlined"> call </span>
+          </div>
         </a>
       </div>
     </div>
@@ -47,20 +91,15 @@
         <div class="greeting">Nice to meet you</div>
 
         <div class="title">
-			<div class="titleSpan">
-				Hi, I am Parth Vijay
-			</div>
-			
-			<div class="titleSpan">
-				Full Stack Web Developer
-			</div>
-			
-		</div>
+          <div class="titleSpan">Hi, I am Parth Vijay!</div>
+          <br />
+          <div class="titleSpan">Full Stack Web Developer</div>
+        </div>
 
         <div class="description">
           Hey, are you looking for a complete web development solution for your
-          business? <br>
-		  Let's shake hands with me.
+          business? <br />
+          Let's shake hands with me.
         </div>
 
         <div class="showCV">
@@ -69,7 +108,205 @@
       </div>
 
       <div class="bannerRight">
-        <img class="bannerImage" src="vjj.parth-20230614-0001.jpg" alt="" />
+        <img
+          class="bannerImage"
+          src="images/vjj.parth-20230614-0001.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="services">
+      <!-- Service Text Headings -->
+      <div class="serviceText">
+        <!-- service text sub-heading -->
+        <div class="textSubHeading">My Services</div>
+
+        <!-- Service text heading -->
+        <div class="textHeading">What we do</div>
+      </div>
+
+      <!-- Service Cards -->
+      <div class="serviceCards">
+        <div class="serviceCard">
+          <div class="serviceIconDiv">
+            <span class="serviceIcon material-symbols-outlined">
+              rocket_launch
+            </span>
+          </div>
+
+          <div class="serviceTitle">Brand Strategy</div>
+
+          <div class="serviceFeatures">
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> android </span>
+              </span>
+              <span class="serviceFeatureText"> Android/iOS App UI </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> language </span>
+              </span>
+              <span class="serviceFeatureText"> Website UI Design </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined">
+                  interactive_space
+                </span>
+              </span>
+              <span class="serviceFeatureText"> UI Interactive Design </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> preview </span>
+              </span>
+              <span class="serviceFeatureText"> Website Prototyping </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> dashboard </span>
+              </span>
+              <span class="serviceFeatureText"> Dashboard Onboarding </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="serviceCard">
+          <div class="serviceIconDiv">
+            <span class="serviceIcon material-symbols-outlined">
+              rocket_launch
+            </span>
+          </div>
+
+          <div class="serviceTitle">UI & UX Design</div>
+
+          <div class="serviceFeatures">
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> android </span>
+              </span>
+              <span class="serviceFeatureText"> Android/iOS App UI </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> language </span>
+              </span>
+              <span class="serviceFeatureText"> Website UI Design </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined">
+                  interactive_space
+                </span>
+              </span>
+              <span class="serviceFeatureText"> UI Interactive Design </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> preview </span>
+              </span>
+              <span class="serviceFeatureText"> Website Prototyping </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> dashboard </span>
+              </span>
+              <span class="serviceFeatureText"> Dashboard Onboarding </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="serviceCard">
+          <div class="serviceIconDiv">
+            <span class="serviceIcon material-symbols-outlined">
+              rocket_launch
+            </span>
+          </div>
+
+          <div class="serviceTitle">Website Design</div>
+
+          <div class="serviceFeatures">
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> android </span>
+              </span>
+              <span class="serviceFeatureText"> Android/iOS App UI </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> language </span>
+              </span>
+              <span class="serviceFeatureText"> Website UI Design </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined">
+                  interactive_space
+                </span>
+              </span>
+              <span class="serviceFeatureText"> UI Interactive Design </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> preview </span>
+              </span>
+              <span class="serviceFeatureText"> Website Prototyping </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> dashboard </span>
+              </span>
+              <span class="serviceFeatureText"> Dashboard Onboarding </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="serviceCard">
+          <div class="serviceIconDiv">
+            <span class="serviceIcon material-symbols-outlined">
+              rocket_launch
+            </span>
+          </div>
+
+          <div class="serviceTitle">UI & UX Design</div>
+
+          <div class="serviceFeatures">
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> android </span>
+              </span>
+              <span class="serviceFeatureText"> Android/iOS App UI </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> language </span>
+              </span>
+              <span class="serviceFeatureText"> Website UI Design </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined">
+                  interactive_space
+                </span>
+              </span>
+              <span class="serviceFeatureText"> UI Interactive Design </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> preview </span>
+              </span>
+              <span class="serviceFeatureText"> Website Prototyping </span>
+            </div>
+            <div class="serviceFeature">
+              <span class="serviceFeatureIcon">
+                <span class="material-symbols-outlined"> dashboard </span>
+              </span>
+              <span class="serviceFeatureText"> Dashboard Onboarding </span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
